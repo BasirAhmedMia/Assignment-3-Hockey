@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+        <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <!--tailwind and daisyui cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,8 +24,11 @@
                     colors: {
                         clifford: '#da373d',
                         'button': '#FF4240',
-                        'description': ' rgba(19, 19, 20, 09)',
+                        'slider-p': ' rgba(19, 19, 20, 09)',
                         'slider-p': ' rgba(255, 255, 255, 0.60)',
+                        'phone': ' rgba(188, 237, 109, 0.10)',
+                        'email': ' rgba(253, 221, 95, 0.10)',
+                        'map': '  rgba(98, 156, 243, 0.10)',
                     }
                 }
             }
@@ -128,7 +134,7 @@
             <hr class="border-dashed border-2  border-gray-300">
             <div class="space-y-4 my-8">
                 <h2 class="text-xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
-                <p class="text-sm lg:text-base font-medium text-description">Dit amet consectetur. Condimentum dignissim
+                <p class="text-sm lg:text-base font-medium text-slider-p">Dit amet consectetur. Condimentum dignissim
                     adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit
                     nullam proin. </p>
@@ -140,7 +146,7 @@
                     <div class="radial-progress text-error" style="--value:80;" role="progressbar"><span
                             class="text-black font-bold">80%</span></div>
                     <h4 class="text-xl font-semibold text-black py-4">Prayer Facility</h4>
-                    <p class="text-base font-normal text-description">Amet consectetur. Condimentum dignissim adipiscing
+                    <p class="text-base font-normal text-slider-p">Amet consectetur. Condimentum dignissim adipiscing
                         .</p>
                 </div>
                 <!-- radial progress 2 -->
@@ -148,7 +154,7 @@
                     <div class="radial-progress text-accent" style="--value:95;" role="progressbar"><span
                             class="text-black font-bold">95%</span></div>
                     <h4 class="text-xl font-semibold text-black py-4">Prayer Facility</h4>
-                    <p class="text-base font-normal text-description">Amet consectetur. Condimentum dignissim adipiscing
+                    <p class="text-base font-normal text-slider-p">Amet consectetur. Condimentum dignissim adipiscing
                         .</p>
                 </div>
                 <!-- radial progress 3 -->
@@ -156,7 +162,7 @@
                     <div class="radial-progress text-warning" style="--value:70;" role="progressbar"><span
                             class="text-black font-bold">70%</span></div>
                     <h4 class="text-xl font-semibold text-black py-4">Prayer Facility</h4>
-                    <p class="text-base font-normal text-description">Amet consectetur. Condimentum dignissim adipiscing
+                    <p class="text-base font-normal text-slider-p">Amet consectetur. Condimentum dignissim adipiscing
                         .</p>
                 </div>
                 <!-- radial progress 4 -->
@@ -164,7 +170,7 @@
                     <div class="radial-progress text-primary" style="--value:50;" role="progressbar"><span
                             class="text-black font-bold">50%</span></div>
                     <h4 class="text-xl font-semibold text-black py-4">Prayer Facility</h4>
-                    <p class="text-base font-normal text-description">Amet consectetur. Condimentum dignissim adipiscing
+                    <p class="text-base font-normal text-slider-p">Amet consectetur. Condimentum dignissim adipiscing
                         .</p>
                 </div>
             </div>
@@ -174,7 +180,7 @@
         <section class="mx-4 my-20 lg:my-8 ">
             <div class="space-y-4 my-8 text-center">
                 <h2 class="text-4xl font-extrabold">Program Sections</h2>
-                <p class="text-base font-medium text-description">Dit amet consectetur. Condimentum dignissim adipiscing
+                <p class="text-base font-medium text-slider-p">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit
                     nullam proin. </p>
             </div>
@@ -235,23 +241,27 @@
         <section class="mx-4 my-20 lg:my-8">
             <div class="space-y-4 my-8 text-center">
                 <h2 class="text-xl lg:text-4xl font-extrabold">Our New Products</h2>
-                <p class="text-sm lg:text-base font-medium text-description-">Dit amet consectetur. Condimentum
+                <p class="text-sm lg:text-base font-medium text-slider-p-">Dit amet consectetur. Condimentum
                     dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
                     sit nullam proin. </p>
             </div>
 
         </section>
 
+
         <!-- clients questions section -->
-        <section class="mx-4 my-20 lg:my-20">
-            <div class="space-y-4 my-16 text-center">
-                <h2 class="text-xl lg:text-4xl font-extrabold">Clients Question</h2>
-                <p class="text-sm lg:text-base font-medium text-description-">Dit amet consectetur. Condimentum
+        <section class="mx-4 my-20 lg:my-8">
+            <hr class="border-dashed border-2  border-gray-300">
+            <div class="space-y-4 text-center">
+                <h2 class="mt-4 text-xl lg:text-4xl font-extrabold">Clients Question</h2>
+                <p class="text-sm lg:text-base font-medium text-slider-p lg:pb-10">Dit amet consectetur. Condimentum
                     dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
                     sit nullam proin. </p>
+                <hr class="border-dashed border-2  border-gray-300">
             </div>
+
             <!-- hero image -->
-            <div class="">
+            <div class="mt-10">
                 <div class="grid grid-cols-1 lg:grid-cols-10  border border-gray-300 rounded-xl p-6">
                     <div class="col-span-4">
                         <img src="Images/13.png" class="h-[30vh] w-[100vw] rounded-lg lg:h-[386px] lg:w-[80%]" />
@@ -322,51 +332,126 @@
             </div>
         </section>
 
+
         <!-- get in touch form section -->
         <section class="mx-4 my-20 lg:my-8">
+            <hr class="border-dashed border-2  border-gray-300">
             <div class="space-y-4 my-8 text-center">
                 <h2 class="text-xl lg:text-4xl font-extrabold">Get In Touch</h2>
-                <p class="text-sm lg:text-base font-medium text-description-">Dit amet consectetur. Condimentum
+                <p class="text-sm lg:text-base font-medium text-slider-p-">Dit amet consectetur. Condimentum
                     dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
                     sit nullam proin. </p>
             </div>
-
+            <hr class="border-dashed border-2  border-gray-300">
+            <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-x-10 my-10">
+                <!-- contact part -->
+                <div class="col-span-4 mb-8">
+                    <div class="grid gap-4 border border-gray-300 rounded-xl p-6">
+                        <div class="grid items-center justify-items-start h-[200px]  bg-phone rounded-lg p-5">
+                            <img src="Images/phone.png">
+                            <p class="text-base font-normal">Phone Number</p>
+                            <strong class="text-base font-bold">(+62)123-321-543</strong>
+                        </div>
+                        <div class="grid items-center justify-items-start  h-[200px]  bg-email rounded-lg p-5">
+                            <img src="Images/message.png" class="">
+                            <p class="text-base font-normal">Email</p>
+                            <strong class="text-base font-bold">hockeys@support.com</strong>
+                        </div>
+                        <div class="grid items-center justify-items-start h-[200px]  bg-map rounded-lg p-5">
+                            <img src="Images/map.png" class="">
+                            <p class="text-base font-normal">Location</p>
+                            <strong class="text-base font-bold">152/1 Mohakhali Wireless Gate</strong>
+                        </div>
+                    </div>
+                </div>
+                <!-- form part -->
+                <div class="col-span-8">
+                    <form class="">
+                        <!-- 1st colum -->
+                        <div class="grid gap-4 grid-cols-1 lg:grid-cols-2">
+                            <div>
+                                <label class="text-xl font-bold" for="name">Your Name</label>
+                            <input type="text" placeholder="Enter your full name" class="mt-2 input input-bordered w-full " required />
+                            </div>
+                            <div>
+                                <label class="text-xl font-bold" for="email">Your Email</label>
+                            <input type="text" placeholder="Enter your Email" class="mt-2 input input-bordered w-full " required />
+                            </div>
+                            <div>
+                                <label class="text-xl font-bold" for="subject">Subject</label>
+                            <input type="text" placeholder="Enter your subject" class="mt-2 input input-bordered w-full " required />
+                            </div>
+                            <div>
+                                <label class="text-xl font-bold" for="phone number">Phone Number</label>
+                            <input type="number" placeholder="Enter your phone number" class="mt-2 input input-bordered w-full " required />
+                            </div>
+                        </div>
+                        <!-- text area -->
+                        <div class="mt-4">
+                            <label class="text-xl font-bold" for="message">Message</label>
+                            <textarea class="textarea textarea-bordered w-full mt-2" placeholder="Write your message" rows="12"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn bg-button text-lg font-bold text-white w-full mt-8">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
 
-        <!-- social media section -->
+        
 
+        <!-- social media section -->
+        <section class="mx-4 my-20 lg:my-8 text-center bg-gray-100 rounded-xl py-10">
+            <h2 class="text-2xl font-extrabold mb-4 text-black">Social Media</h2>
+            <div class="grid justify-center">
+                <ul class="grid grid-cols-4 gap-6">
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                </ul>
+            </div>
+        </section>
 
     </main>
     <footer>
-        <footer class="footer p-10  text-base-content">
-            <aside>
-                <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                    clip-rule="evenodd" class="fill-current">
-                    <path
-                        d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
-                    </path>
-                </svg>
+        <footer class=" footer p-10 text-base-content bg-black greed justify-center lg:justify-between">
+            <aside class="greed justify-items-center text-center">
+                <h3 class="text-2xl font-bold text-white">Get In Touch</h3>
                 <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+                <div>
+                    <i class="fa-regular fa-envelope text-red-500 mr-3"></i>
+                    hockeys@support.com
+                </div>
+                <div class="">
+                    <i class="fa-solid fa-phone text-red-500 mr-3"></i>
+                    (+62) 123-321-543
+                </div>
             </aside>
-            <nav>
-                <header class="footer-title">Services</header>
-                <a class="link link-hover">Branding</a>
-                <a class="link link-hover">Design</a>
-                <a class="link link-hover">Marketing</a>
-                <a class="link link-hover">Advertisement</a>
-            </nav>
-            <nav>
+            <nav class="text-slider-p">
                 <header class="footer-title">Company</header>
                 <a class="link link-hover">About us</a>
-                <a class="link link-hover">Contact</a>
-                <a class="link link-hover">Jobs</a>
-                <a class="link link-hover">Press kit</a>
+                <a class="link link-hover">Leadership</a>
+                <a class="link link-hover">Careers</a>
+                <a class="link link-hover">News & Article</a>       
+                <a class="link link-hover">Legal Notice</a>
             </nav>
-            <nav>
-                <header class="footer-title">Legal</header>
-                <a class="link link-hover">Terms of use</a>
-                <a class="link link-hover">Privacy policy</a>
-                <a class="link link-hover">Cookie policy</a>
+            <!-- transform: translate(166%, -148%); -->
+            <nav class="text-slider-p transform">
+                <header class="footer-title text-white">Support</header>
+                <a class="link link-hover">Help Center</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Ticket Support</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <nav class="text-slider-p">
+                <header class="footer-title">Services</header>
+                <a class="link link-hover">Academy</a>
+                <a class="link link-hover">Group Lesson</a>
+                <a class="link link-hover">Private Lesson</a>
+                <a class="link link-hover">Hockeys for kids</a>
+                <a class="link link-hover">Hockeys for Adult</a>
             </nav>
         </footer>
     </footer>
